@@ -1,10 +1,9 @@
-import edu.princeton.cs.algs4.*;
 import java.util.*;
 import java.io.*;
 /* 作用：生成随机数
 命令行参数： 1. 输出随机数的数量 2. 3. 最大值和最小值，[min,max)
-编译参考： javac -cp "./algs4.jar;." -encoding utf-8 .\randomNums.java
-运行参考： java -cp "./algs4.jar;." randomNums 5 10 20 
+编译参考： javac -cp -encoding utf-8 .\randomNums.java
+运行参考： java -cp randomNums 5 10 20 
 Exist Function：生成随机 Double 数列，Int 数列，并保存到文件，读取保存的文件。
 Warning：readFile(String name,Char spacer) 对读取的文件有要求，只能读取
          全部都是 Int 数据或者 Double 数据的文件，否则会报错。
